@@ -1,0 +1,50 @@
+.ashoka{
+    width: 12em;
+    height: 11.5em;
+    position: relative;
+    border: 1em solid navy;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.ashoka:before{
+    content: "";
+    position: absolute;
+    top: 5em;
+    left: 5em;
+    width: 2em;
+    height: 2em;
+    background-color: navy;
+    border-radius: 50%;
+}
+.spoke {
+    width: 1em;
+    height: 0;
+    position: absolute;
+    top: 7.75em;
+    left: 8em;
+    border-top: 0.25em solid transparent;
+    border-right: 2em solid navy;
+    border-bottom: 0.25em solid transparent;
+    transform-origin: 0 0.25em;
+}
+.spoke:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -0.25em;
+    left: 3em;
+    border-top: 0.25em solid transparent;
+    border-left: 5em solid navy;
+    border-bottom: 0.25em solid transparent;
+}
+.spoke:after{
+content: "";
+position:  absolute;
+width: 0.8em;
+height: 0.8em;
+top : 0.66em;
+left :7.6em;
+background-color: navy;
+border-radius: 50%;
+}

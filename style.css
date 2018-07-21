@@ -1,0 +1,68 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+/* .container{
+    background-image: url(orange.jpg);
+    height: 33.33vh;
+    width: 100%;
+}
+*/
+ul li{
+    list-style: none;
+    height: 33.33vh;
+    width: 100%;
+}
+#orange,#white, #green{
+    height: 100%;
+}
+.contain {
+    background-image: url(images/ashokChakra.jpg);
+    background-size: contain;
+    width: 210px;
+    height: 210px;
+    resize: both;
+}
+#orange{
+    background-color:orange;
+    background-repeat: repeat-y;
+    animation: move 1s linear infinite;
+}
+ @keyframes move{
+     0% {
+         transform : translate(10px);
+     }
+     20% { 
+         transform : translate(30px);
+     }
+     40% { 
+        transform : translate(50px);
+    }
+    60% { 
+        transform : translate(70px);
+    }
+    80% { 
+        transform : translate(90px);
+    }
+    100% { 
+        transform : translate(110px);
+    }
+}
+#green{
+    background-color: green;
+    background-repeat: repeat-y;
+    animation: move 1s linear infinite;
+}
+#white{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 7px;  
+}
+h1 {
+    color: blue;
+    font-family: 'Lobster Two', cursive;
+    font-size: 70px;
+    font-display: transparent;
+    text-shadow: 0 4px 5px palevioletred;
+}
